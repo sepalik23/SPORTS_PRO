@@ -1,0 +1,448 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "live": "all"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 933125,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2023-05-24T07:30:00+00:00",
+                "timestamp": 1684913400,
+                "periods": {
+                    "first": 1684913400,
+                    "second": 1684917000
+                },
+                "venue": {
+                    "id": 1244,
+                    "name": "Dynamic Herb-Borromeo Sports Complex",
+                    "city": "Talisay"
+                },
+                "status": {
+                    "long": "Second Half",
+                    "short": "2H",
+                    "elapsed": 71
+                }
+            },
+            "league": {
+                "id": 765,
+                "name": "PFL",
+                "country": "Philippines",
+                "logo": "https://media-2.api-sports.io/football/leagues/765.png",
+                "flag": "https://media-1.api-sports.io/flags/ph.svg",
+                "season": 2022,
+                "round": "Regular Season - 8"
+            },
+            "teams": {
+                "home": {
+                    "id": 18265,
+                    "name": "Dynamic Herb Cebu",
+                    "logo": "https://media-2.api-sports.io/football/teams/18265.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 16193,
+                    "name": "Stallion",
+                    "logo": "https://media-2.api-sports.io/football/teams/16193.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 65,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 16193,
+                        "name": "Stallion",
+                        "logo": "https://media-2.api-sports.io/football/teams/16193.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": null
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 1023584,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2023-05-24T07:30:00+00:00",
+                "timestamp": 1684913400,
+                "periods": {
+                    "first": 1684913400,
+                    "second": 1684917000
+                },
+                "venue": {
+                    "id": 19664,
+                    "name": "Haimen Sports Center Stadium",
+                    "city": "Nantong"
+                },
+                "status": {
+                    "long": "Second Half",
+                    "short": "2H",
+                    "elapsed": 73
+                }
+            },
+            "league": {
+                "id": 929,
+                "name": "League Two",
+                "country": "China",
+                "logo": "https://media-3.api-sports.io/football/leagues/929.png",
+                "flag": "https://media-1.api-sports.io/flags/cn.svg",
+                "season": 2023,
+                "round": "Regular Season - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 19319,
+                    "name": "Nantong Haimen Codion",
+                    "logo": "https://media-1.api-sports.io/football/teams/19319.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 19324,
+                    "name": "Zibo Qisheng",
+                    "logo": "https://media-3.api-sports.io/football/teams/19324.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 38,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19319,
+                        "name": "Nantong Haimen Codion",
+                        "logo": "https://media-2.api-sports.io/football/teams/19319.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "J. Sangnan"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 1023585,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2023-05-24T07:30:00+00:00",
+                "timestamp": 1684913400,
+                "periods": {
+                    "first": 1684913400,
+                    "second": 1684917000
+                },
+                "venue": {
+                    "id": 19663,
+                    "name": "Mission Hills Football Base Stadium",
+                    "city": "Haikou"
+                },
+                "status": {
+                    "long": "Second Half",
+                    "short": "2H",
+                    "elapsed": 72
+                }
+            },
+            "league": {
+                "id": 929,
+                "name": "League Two",
+                "country": "China",
+                "logo": "https://media-3.api-sports.io/football/leagues/929.png",
+                "flag": "https://media-1.api-sports.io/flags/cn.svg",
+                "season": 2023,
+                "round": "Regular Season - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 19317,
+                    "name": "Hainan Star",
+                    "logo": "https://media-1.api-sports.io/football/teams/19317.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 17266,
+                    "name": "Quanzhou Yassin",
+                    "logo": "https://media-2.api-sports.io/football/teams/17266.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 30,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 17266,
+                        "name": "Quanzhou Yassin",
+                        "logo": "https://media-2.api-sports.io/football/teams/17266.png"
+                    },
+                    "player": {
+                        "id": 368513,
+                        "name": "Li Yalun"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 32,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19317,
+                        "name": "Hainan Star",
+                        "logo": "https://media-1.api-sports.io/football/teams/19317.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Pu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 59,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 19317,
+                        "name": "Hainan Star",
+                        "logo": "https://media-3.api-sports.io/football/teams/19317.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "L. Pu"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 1023586,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2023-05-24T08:00:00+00:00",
+                "timestamp": 1684915200,
+                "periods": {
+                    "first": 1684915200,
+                    "second": null
+                },
+                "venue": {
+                    "id": 2674,
+                    "name": "Qingdao Tiantai Stadium",
+                    "city": "Qingdao"
+                },
+                "status": {
+                    "long": "Halftime",
+                    "short": "HT",
+                    "elapsed": 45
+                }
+            },
+            "league": {
+                "id": 929,
+                "name": "League Two",
+                "country": "China",
+                "logo": "https://media-3.api-sports.io/football/leagues/929.png",
+                "flag": "https://media-1.api-sports.io/flags/cn.svg",
+                "season": 2023,
+                "round": "Regular Season - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 5679,
+                    "name": "Qingdao Red Lions",
+                    "logo": "https://media-3.api-sports.io/football/teams/5679.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 5660,
+                    "name": "Hubei Chufeng Heli",
+                    "logo": "https://media-1.api-sports.io/football/teams/5660.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 20,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5679,
+                        "name": "Qingdao Red Lions",
+                        "logo": "https://media-1.api-sports.io/football/teams/5679.png"
+                    },
+                    "player": {
+                        "id": null,
+                        "name": "Gong Zheng"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 31,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 5679,
+                        "name": "Qingdao Red Lions",
+                        "logo": "https://media-1.api-sports.io/football/teams/5679.png"
+                    },
+                    "player": {
+                        "id": 80915,
+                        "name": "Tao Yuan"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        }
+    ]
+}

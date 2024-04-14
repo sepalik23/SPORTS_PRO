@@ -1,0 +1,87 @@
+.right-body{
+  background-color: rgb(102, 7, 7);
+}
+
+.right-body-grid-headline{
+  background-color: white;
+  margin: 0px 5px 10px 5px;
+  border-style: solid;
+  border-color: rgb(102, 7, 7);
+  position: fixed;
+  top: 108px;
+  bottom: 45%;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+.right-body-grid-headline-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 8px;
+  margin: 14px;
+}
+
+.right-body-grid-trending{
+  background-color: white;
+  margin: 9px 5px 10px 5px;
+  border-style: solid;
+  border-color: rgb(102, 7, 7);
+  position: fixed;
+  top: 56.9%;
+  bottom: 0;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.s{
+  font-style: italic;
+  color: white;
+  margin-top: -6px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.headline-content, .video-content{
+  display: grid;
+  grid-template-columns: 1fr;
+  cursor: pointer;
+  transition: transform 0.6s;
+  padding-bottom: 0px;
+}
+
+.headline-content:hover, .video-content:hover{
+  transform: scale(1.1);
+}
+
+.top-headlines{
+  margin-left: 4px;
+  display: flex;
+  position: fixed;  
+  top: 81px;
+  padding-right: 130px;
+}
+
+.trending-videos{
+  margin-left: 4px;
+  display: flex;
+  position: fixed;  
+  top: 54.9%;
+  padding-right: 130px;
+}
+
+.time{
+  font-weight: 300;
+  font-size: x-small;
+  margin-top: -14px;
+  color: rgb(102, 7, 7);
+
+}
+
+.top-headlines h4, .trending-videos h4{
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+}

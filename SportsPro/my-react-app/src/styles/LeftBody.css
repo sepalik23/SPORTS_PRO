@@ -1,0 +1,35 @@
+.left-body{
+    background-color: #323232;
+    /* padding-top: 10px; */
+  }
+
+  .content{
+    margin-top: 10px;
+    width: 300px;
+    position: fixed;
+    top: 75px;
+    bottom: 0;
+    left: 0;
+    background-color:  #323232;
+    justify-content: center;
+  }
+
+  .content p{
+    font-size: 23px;
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .content h4{
+    font-family: monospace;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .dropdowns{
+    font-family: monospace;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: xx-large;
+  }

@@ -1,0 +1,47 @@
+import React, { useEffect } from 'react';
+
+const WidgetComponent = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://widgets.api-sports.io/2.0.3/widgets.js';
+    script.async = true;
+
+    const widgetContainer = document.getElementById('wg-api-football-games');
+
+    if (widgetContainer) {
+      widgetContainer.appendChild(script);
+    }
+
+    return () => {
+      if (widgetContainer) {
+        widgetContainer.removeChild(script);
+      }
+    };
+  }, []);
+
+  const widgetHtml = `
+    <div
+      id="wg-api-football-games"
+      data-host="v3.football.api-sports.io"
+      data-key="3933b966d2d4a64103c8658592ac48ef"
+      data-date=""
+      data-league=""
+      data-season=""
+      data-theme=""
+      data-refresh="15"
+      data-show-toolbar="true"
+      data-show-errors="false"
+      data-show-logos="true"
+      data-modal-game="true"
+      data-modal-standings="true"
+      data-modal-show-logos="true"
+    />
+  `;
+
+  return (
+    <div dangerouslySetInnerHTML={{ __html: widgetHtml }} />
+  );
+};
+
+export default WidgetComponent;

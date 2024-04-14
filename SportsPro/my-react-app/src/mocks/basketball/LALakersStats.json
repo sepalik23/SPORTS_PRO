@@ -1,0 +1,105 @@
+{
+    "get": "statistics",
+    "parameters": {
+        "league": "12",
+        "season": "2022-2023",
+        "team": "145"
+    },
+    "errors": [],
+    "results": 5,
+    "response": {
+        "country": {
+            "id": 5,
+            "name": "USA",
+            "code": "US",
+            "flag": "https://media-2.api-sports.io/flags/us.svg"
+        },
+        "league": {
+            "id": 12,
+            "name": "NBA",
+            "type": "League",
+            "season": "2022-2023",
+            "logo": "https://media-3.api-sports.io/basketball/leagues/12.png"
+        },
+        "team": {
+            "id": 145,
+            "name": "Los Angeles Lakers",
+            "logo": "https://media-1.api-sports.io/basketball/teams/145.png"
+        },
+        "games": {
+            "played": {
+                "home": 54,
+                "away": 51,
+                "all": 105
+            },
+            "wins": {
+                "home": {
+                    "total": 30,
+                    "percentage": "0.556"
+                },
+                "away": {
+                    "total": 23,
+                    "percentage": "0.451"
+                },
+                "all": {
+                    "total": 53,
+                    "percentage": "0.505"
+                }
+            },
+            "draws": {
+                "home": {
+                    "total": 0,
+                    "percentage": "0.000"
+                },
+                "away": {
+                    "total": 0,
+                    "percentage": "0.000"
+                },
+                "all": {
+                    "total": 0,
+                    "percentage": "0.000"
+                }
+            },
+            "loses": {
+                "home": {
+                    "total": 24,
+                    "percentage": "0.444"
+                },
+                "away": {
+                    "total": 28,
+                    "percentage": "0.549"
+                },
+                "all": {
+                    "total": 52,
+                    "percentage": "0.495"
+                }
+            }
+        },
+        "points": {
+            "for": {
+                "total": {
+                    "home": 6233,
+                    "away": 5892,
+                    "all": 12125
+                },
+                "average": {
+                    "home": "115.4",
+                    "away": "115.5",
+                    "all": "115.5"
+                }
+            },
+            "against": {
+                "total": {
+                    "home": 6052,
+                    "away": 6080,
+                    "all": 12132
+                },
+                "average": {
+                    "home": "112.1",
+                    "away": "119.2",
+                    "all": "115.5"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.middle-body{
+    background-color: lightgrey;
+    /* top: 0;
+    bottom: 0; */
+  }
+
+  .stat{
+   display: grid;
+   grid-template-columns: 1.2fr 2.5fr;
+   /* flex: 1fr 3fr;
+   position: fixed;
+   top: 74px;
+   bottom: 0; */
+  }
+
+  .player-selection{
+    background-color: white;
+    margin: 85px 5px 5px 5px;
+    padding: 5px;
+  }
+
+  .stat-content{
+    background-color: white;
+    margin: 85px 5px 5px 2px;
+  }
+
+  table, th, td, tr {
+    border: dotted black;
+  }
+
+  .team-stat{
+    margin: 86px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(102, 7, 7);
+    /* background-color: white; */
+  }
+
+  table{
+    width: 100%;
+    background-color: white;
+    border: 5px solid black;
+
+  }
+
+    th{
+    color: rgb(102, 7, 7);
+  }
+
+  h4{
+    font-family: monospace;
+    cursor: pointer;
+  
+  }
